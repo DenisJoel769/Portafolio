@@ -262,8 +262,13 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle {
     display: block;
   }
-  .navbar ul {
+ /*  .navbar ul {
     display: none;
+  } */
+
+  .navbar__ul{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
